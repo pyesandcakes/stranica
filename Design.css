@@ -2,11 +2,16 @@
 
 body{
     background-color: rgb(63, 63, 63);
+    font-family: 'Open Sans', sans-serif;
+    color: antiquewhite;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
 }
 
 header {
     font-family: 'Open Sans', sans-serif;
-    margin: 2%;
+    margin: 0;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +26,7 @@ header {
     border-width: 2px;
     border-style: solid;
     border-radius: 50px;
-    padding: 10px;
+    padding: 12px;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -30,5 +35,23 @@ header {
     color:black;
 }
 .home{
-    margin-right: 65%;
+    margin-right: 55%;
+}
+
+.gpu4090{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gpu3090{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gpu3080{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
