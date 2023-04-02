@@ -4,7 +4,7 @@ body {
     background-color: #272727;  
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
@@ -27,6 +27,7 @@ header {
 }
 
 .about {
+    margin-left: 10%;
     color: antiquewhite;
     text-decoration: none !important;
     border-color: rgba(255, 255, 255, 0.692);
@@ -77,6 +78,11 @@ header {
 .home {
     width: 100px;
     height: 100px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+.home:hover{
+    width: 110px;
+    height: 110px;
 }
 .hm{
     margin-right: 50%;
