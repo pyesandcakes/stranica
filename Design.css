@@ -43,15 +43,25 @@ header {
     align-items: center;
     justify-content: center;
 }
-
+.g4090{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
 .gpu3090{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.g3090{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
 .gpu3080{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.g3080{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
