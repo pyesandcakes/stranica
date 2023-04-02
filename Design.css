@@ -24,7 +24,7 @@ body {
     background-color: #272727;  
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
@@ -47,6 +47,7 @@ header {
 }
 
 .about {
+    margin-left: 10%;
     color: antiquewhite;
     text-decoration: none !important;
     border-color: rgba(255, 255, 255, 0.692);
