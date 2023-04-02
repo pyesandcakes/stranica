@@ -148,6 +148,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #131313;
+    min-height: 5vh;
     padding-left: 2%;
     padding-right: 2%;
 }
