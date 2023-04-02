@@ -4,9 +4,15 @@ body{
     background-color: rgb(63, 63, 63);
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.main{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
 }
 
 header {
@@ -17,6 +23,7 @@ header {
     justify-content: space-between;
     color: antiquewhite;
     align-items: center;
+    
 }
 
 .nav a{
@@ -72,6 +79,9 @@ header {
 .footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #131313;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
