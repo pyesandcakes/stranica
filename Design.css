@@ -42,6 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15%;
 }
 .g4090{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -51,6 +52,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15%;
 }
 .g3090{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -60,8 +62,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15%;
 }
 .g3080{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
 }
