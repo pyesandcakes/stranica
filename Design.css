@@ -97,6 +97,11 @@ header {
 .home {
     width: 100px;
     height: 100px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+.home:hover{
+    width: 110px;
+    height: 110px;
 }
 .hm{
     margin-right: 50%;
