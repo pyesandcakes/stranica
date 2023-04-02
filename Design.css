@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body{
-    background-color: rgb(63, 63, 63);
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+body {
+    background-color: rgb(41, 41, 41);
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
     margin-top: 2%;
@@ -10,7 +30,7 @@ body{
     margin-bottom: 0;
 }
 
-.main{
+.main {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -23,12 +43,12 @@ header {
     justify-content: space-between;
     color: antiquewhite;
     align-items: center;
-    
+
 }
 
-.nav a{
+.nav a {
     color: antiquewhite;
-    text-decoration: none!important;
+    text-decoration: none !important;
     border-color: rgba(255, 255, 255, 0.692);
     border-width: 2px;
     border-style: solid;
@@ -37,46 +57,93 @@ header {
     transition: background-color 0.5s ease-in-out;
 }
 
-.nav a:hover{
+.nav a:hover {
     background-color: rgb(255, 255, 255);
-    color:black;
+    color: black;
 }
-.home{
+
+.home {
     margin-right: 55%;
 }
 
-.gpu4090{
+.gpu4090 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10%;
-}
-.g4090{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-}
-.gpu3090{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10%;
-}
-.g3090{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-}
-.gpu3080{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10%;
-}
-.g3080{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+    margin-bottom: 5%;
 }
 
-.footer{
+.g4090 {
+    -webkit-filter: drop-shadow(5px 5px 5px #3b3b3b);
+    filter: drop-shadow(5px 5px 5px #3b3b3b);
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out ,-webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.g4090:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #474747);
+    filter: drop-shadow(5px 5px 5px #474747);
+    transform: rotate(-8deg);
+}
+
+.gpu3090 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.g3090 {
+    -webkit-filter: drop-shadow(5px 5px 5px #3b3b3b);
+    filter: drop-shadow(5px 5px 5px #3b3b3b);
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out ,-webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+
+.g3090:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #474747);
+    filter: drop-shadow(5px 5px 5px #474747);
+    transform: rotate(7deg);
+}
+
+.gpu3080 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.g3080 {
+    -webkit-filter: drop-shadow(5px 5px 5px #3b3b3b);
+    filter: drop-shadow(5px 5px 5px #3b3b3b);
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out ,-webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.g3080:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #474747);
+    filter: drop-shadow(5px 5px 5px #474747);
+    transform: rotate(-7deg);
+}
+
+.txt4090 {
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+
+.txt3090 {
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.txt3080 {
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+
+
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,4 +151,3 @@ header {
     padding-left: 2%;
     padding-right: 2%;
 }
-
