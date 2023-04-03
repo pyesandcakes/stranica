@@ -100,6 +100,7 @@ header {
     color: antiquewhite;
     text-decoration: none !important;
     font-size:10px;
+    margin:2%;
     }
 @media (max-width:1250px){
     .about{
