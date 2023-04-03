@@ -221,4 +221,16 @@ header {
     .sources{
         display: none;
     }
+    .home{
+        display:none;
+        }
+    .hm{
+        display:none;
+        }
+    .hm_mob{
+        display:initial;
+        }
+    .hm_mob_pic{
+        display:initial;
+        }
 }
