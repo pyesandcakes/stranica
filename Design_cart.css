@@ -99,6 +99,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
     text-decoration: none !important;
+    font-size:10px;
     }
 @media (max-width:1250px){
     .about{
