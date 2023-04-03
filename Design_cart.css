@@ -93,6 +93,7 @@ header {
     border-color: rgb(255, 255, 255);
     border-style: groove;
     border-radius: 2px;
+    width: 100%;
     }
 @media (max-width:1250px){
     .about{
