@@ -91,7 +91,7 @@ header {
 .cart{
     border-width: 3px;
     border-color: rgb(255, 255, 255);
-    border-style: groove;
+    border-style: solid;
     border-radius: 2px;
     width: 100%;
     }
