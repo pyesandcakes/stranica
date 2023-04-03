@@ -88,7 +88,12 @@ header {
     margin-right: 50%;
     cursor: pointer;
 }
-
+.cart{
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 25%;
+    }
 @media (max-width:1250px){
     .about{
         display: none;
