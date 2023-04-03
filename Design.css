@@ -109,13 +109,13 @@ header {
     cursor: pointer;
 }
 
-.hm_mob_img {
+.hm_mob_pic {
     display:none;
     width: 100px;
     height: 100px;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
-.hm_mob_img:hover{
+.hm_mob_pic:hover{
     width: 110px;
     height: 110px;
 }
