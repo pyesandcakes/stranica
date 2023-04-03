@@ -106,6 +106,7 @@ header {
 }
 .hm{
     margin-right: 50%;
+    cursor: pointer;
 }
 .gpu4090 {
     display: flex;
@@ -192,4 +193,16 @@ header {
     min-height: 5vh;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+@media (max-width:1250px){
+    .about{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .sources{
+        display: none;
+    }
 }
