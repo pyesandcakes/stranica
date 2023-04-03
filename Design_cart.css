@@ -95,6 +95,11 @@ header {
     border-radius: 2px;
     width: 100%;
     }
+.cart_down{
+    font-family: 'Open Sans', sans-serif;
+    color: antiquewhite;
+    text-decoration: none !important;
+    }
 @media (max-width:1250px){
     .about{
         display: none;
