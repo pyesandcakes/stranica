@@ -118,5 +118,6 @@ header {
     }
     .cart{
         height:12px;
+        border-radius:3px;
     }
 }
