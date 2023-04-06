@@ -87,3 +87,74 @@ header {
 .hm{
     margin-right: 50%;
 }
+.about_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    border-color: rgba(255, 255, 255, 0.692);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.family_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    border-color: rgba(255, 255, 255, 0.692);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.sources_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    border-color: rgba(255, 255, 255, 0.692);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.about_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.family_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.sources_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+@media (max-width:1250px){
+    .about{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .sources{
+        display: none;
+    }
+    .home{
+        display:none;
+        }
+    .hm{
+        display:none;
+        }
+    .hm_mob{
+        display:initial;
+        }
+    .hm_mob_pic{
+        display:initial;
+        }
+}
