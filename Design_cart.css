@@ -110,9 +110,6 @@ header {
 .about_mobile{
     text-decoration: none !important;
     color: antiquewhite;
-    border-color: rgba(255, 255, 255, 0.692);
-    border-width: 2px;
-    border-style: solid;
     border-radius: 50px;
     padding: 10px;
     font-size: 25px;
@@ -122,9 +119,6 @@ header {
 .family_mobile{
     text-decoration: none !important;
     color: antiquewhite;
-    border-color: rgba(255, 255, 255, 0.692);
-    border-width: 2px;
-    border-style: solid;
     border-radius: 50px;
     padding: 10px;
     font-size: 25px;
@@ -134,9 +128,6 @@ header {
 .sources_mobile{
     text-decoration: none !important;
     color: antiquewhite;
-    border-color: rgba(255, 255, 255, 0.692);
-    border-width: 2px;
-    border-style: solid;
     border-radius: 50px;
     padding: 10px;
     font-size: 25px;
