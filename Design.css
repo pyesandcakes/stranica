@@ -43,7 +43,7 @@ header {
     justify-content: space-between;
     color: antiquewhite;
     align-items: center;
-
+    text-decoration: none !important;
 }
 
 .about {
@@ -100,6 +100,7 @@ header {
     height: 100px;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
+
 .home:hover{
     width: 110px;
     height: 110px;
@@ -199,8 +200,48 @@ header {
     animation: 0.5s ease-out 0s 1 slideInFromRight;
 }
 
+.about_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: background-color 0.5s ease-in-out;
+}
 
+.family_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    transition: background-color 0.5s ease-in-out;
+}
 
+.sources_mobile{
+    text-decoration: none !important;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.about_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.family_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.sources_mobile:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.main_mobile{
+    display: none;
+}
 .footer {
     display: flex;
     align-items: center;
@@ -233,4 +274,7 @@ header {
     .hm_mob_pic{
         display:initial;
         }
+    .main_mobile{
+        display: initial;
+    }
 }
