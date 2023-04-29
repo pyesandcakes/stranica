@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 body {
     background-color: rgb(42, 40, 42);  
     font-family: 'Open Sans', sans-serif;
@@ -152,6 +179,54 @@ header {
 }
 .osx .hm_mob_pic{
     display: initial;
+}
+
+.history{
+    line-height: 260%;
+}
+.gf256 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.g256{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.firstgpu{
+    padding-left: 7%;
+    font-weight: 100;
+    animation: 1s ease-out 0.25s 1 slideInFromLeft;
+}
+.txt256{
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+.sap5570 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.sa5570{
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+.firstgpu-right{
+    padding-left: 7%;
+    font-weight: 100;
+    animation: 1s ease-out 0.25s 1 slideInFromRight;
+}
+.txt5570{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.left-line{
+    position: absolute;
+    width: 60%;
+    height: 260px;
+    z-index: -1;
+    padding-left: 25%;
+    display: inline;
+    transform: translateY(-75%);
+    animation: fadeIn 1s ease-in both;
 }
 @media (max-width:1250px){
     .about{
