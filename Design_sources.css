@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    background-color: rgb(42, 40, 42);   
+    background-color: rgb(42, 40, 42);  
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
     margin-top: 1%;
@@ -110,7 +110,7 @@ header {
     color: antiquewhite;
     border-radius: 50px;
     padding: 10px;
-    font-size:15px;
+    font-size: 15px;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -125,6 +125,24 @@ header {
 .sources_mobile:hover {
     background-color: rgb(255, 255, 255);
     color: black;
+}
+.main_mobile{
+    display: none;
+}
+.hm_mob_pic {
+    display:none;
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+.hm_mob_pic:hover{
+    width: 110px;
+    height: 110px;
+}
+.hm_mob{
+    margin-right: 50%;
+    cursor: pointer;
+    display:none;
 }
 @media (max-width:1250px){
     .about{
@@ -148,4 +166,7 @@ header {
     .hm_mob_pic{
         display:initial;
         }
+    .main_mobile{
+        display: initial;
+    }
 }
