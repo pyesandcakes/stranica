@@ -256,6 +256,13 @@ header {
     padding-left: 2%;
     padding-right: 2%;
 }
+.transition-move{
+    opacity: 1;
+    transition: 1s;
+}
+html.is-animating .transition-move{
+    opacity: 0;
+}
 @media (max-width:1250px){
     .about{
         display: none;
