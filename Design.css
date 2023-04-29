@@ -261,6 +261,14 @@ header {
 .osx .hm_mob_pic{
     display: initial;
 }
+
+.transition-move{
+    opacity: 1;
+    transition: 0.5s;
+}
+html.is-animating .transition-move{
+    opacity: 0;
+}
 @media (max-width:1250px){
     .about{
         display: none;
