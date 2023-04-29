@@ -252,6 +252,15 @@ header {
     padding-right: 2%;
 }
 
+.osx .hm{
+    display: none;
+}
+.osx .hm_mob{
+    display: initial;
+}
+.osx .hm_mob_pic{
+    display: initial;
+}
 @media (max-width:1250px){
     .about{
         display: none;
