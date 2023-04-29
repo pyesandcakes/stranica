@@ -98,12 +98,13 @@ header {
 .home {
     width: 100px;
     height: 100px;
-    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    border-radius: 0;
+    border-color: antiquewhite;
+    transition: border-radius 0.5s ease-in-out;
 }
 
 .home:hover{
-    width: 110px;
-    height: 110px;
+    border-radius: 2px;
 }
 .hm{
     margin-right: 50%;
@@ -114,11 +115,11 @@ header {
     display:none;
     width: 100px;
     height: 100px;
-    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 .hm_mob_pic:hover{
-    width: 110px;
-    height: 110px;
+    background-color: antiquewhite;
+    border-radius: 2px;
 }
 .hm_mob{
     margin-right: 50%;
