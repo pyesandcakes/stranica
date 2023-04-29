@@ -26,7 +26,7 @@
         <div class="main">
             <div class="nav">
                 <header>
-                    <a class="hm" href=index.html><video class="home" autoplay loop><source src="https://infstranica.b-cdn.net/homebutton-trans.mp4" type="video/mp4"></video></a>
+                    <a class="hm" href=index.html><video class="home" autoplay loop><source src="https://infstranica.b-cdn.net/homebutton.mp4" type="video/mp4"></video></a>
                     <a class="hm_mob" href=index.html><img class="hm_mob_pic" src="https://infstranica.b-cdn.net/icon-trans.png"></a>
                     <a class="about" href=History.html>History</a>
                     <a class="family" href=cp.html>Current problems</a>
@@ -44,4 +44,9 @@
             </div>
         <script src="" async defer></script>
     </body>
+    <script>
+        if (navigator.platform.match('Mac') !== null) {
+            document.body.setAttribute('class', 'osx');
+        }
+    </script>
 </html>
