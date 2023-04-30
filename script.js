@@ -1,1 +1,5 @@
-const swup = new Swup();
+import Swup from 'swup';
+
+const swup = new Swup({
+  /* options */
+});
