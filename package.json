@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@swup/slide-theme": "^1.0.5",
     "swup": "^3.0.6"
   }
 }
