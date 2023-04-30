@@ -261,11 +261,11 @@ header {
     padding-left: 2%;
     padding-right: 2%;
 }
-.transition-move2{
+.transition-move{
     transition: 1s;
     opacity: 1;
 }
-html.is-animating .transition-move2{
+html.is-animating .transition-move{
     opacity: 0;
 }
 @media (max-width:1250px){
