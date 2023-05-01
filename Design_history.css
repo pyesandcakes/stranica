@@ -268,6 +268,12 @@ header {
 html.is-animating .transition-fade{
     opacity: 0;
 }
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 @media (max-width:1250px){
     .about{
         display: none;
