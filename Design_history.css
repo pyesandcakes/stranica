@@ -262,8 +262,8 @@ header {
     padding-right: 2%;
 }
 .transition-fade{
-    opacity: 1;
     transition: 1s;
+    opacity: 1;
 }
 html.is-animating .transition-fade{
     opacity: 0;
