@@ -9,7 +9,9 @@ body {
     margin-right: 0;
     margin-bottom: 0;
 }
-
+html::-webkit-scrollbar {
+    display: none;
+}
 .main {
     margin-left: 5%;
     margin-right: 5%;

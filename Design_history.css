@@ -274,6 +274,9 @@ html, body {
   body {
     position: relative
   }
+  html::-webkit-scrollbar {
+    display: none;
+}
 @media (max-width:1250px){
     .about{
         display: none;

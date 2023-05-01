@@ -14,7 +14,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
-
+html::-webkit-scrollbar {
+    display: none;
+}
 header {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
