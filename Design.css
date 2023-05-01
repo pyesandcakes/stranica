@@ -263,11 +263,11 @@ header {
     display: initial;
 }
 
-.transition-move{
+.transition-fade{
     transition: 1s;
     opacity: 1;
 }
-html.is-animating .transition-move{
+html.is-animating .transition-fade{
     opacity: 0;
 }
 @media (max-width:1250px){
