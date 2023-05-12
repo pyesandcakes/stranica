@@ -195,6 +195,12 @@ header {
     justify-content: center;
     margin-bottom: 5%;
 }
+.gf256_mob {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 .g256{
     animation: 1s ease-out 0s 1 slideInFromLeft;
     -webkit-filter: drop-shadow(5px 5px 5px #3b3b3b);
@@ -217,6 +223,12 @@ header {
 }
 .sap5570 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.sap5570_mob {
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 1;
@@ -315,5 +327,17 @@ html, body {
     }
     .sa5570{
         width: 100%;
+    }
+    .gf256{
+        display: none;
+    }
+    .gf256_mob{
+        display: initial;
+    }
+    .sap5570{
+        display: none;
+    }
+    .sap5570_mob{
+        display: initial;
     }
 }
