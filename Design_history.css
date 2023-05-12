@@ -212,10 +212,13 @@ header {
     -webkit-filter: drop-shadow(5px 5px 5px #474747);
     filter: drop-shadow(5px 5px 5px #474747);
     transform: rotate(-7deg);
+    overflow: visible;
+
 }
 .firstgpu{
     padding-left: 7%;
     font-weight: 100;
+    font-size: large;
     animation: 1s ease-out 0.25s 1 slideInFromLeft;
 }
 .txt256{
@@ -241,6 +244,7 @@ header {
     transition: transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
     margin-right: 2%;
     width: 600px;
+    overflow: visible;
 }
 .sa5570:hover{
     -webkit-filter: drop-shadow(5px 5px 5px #474747);
@@ -250,6 +254,7 @@ header {
 .firstgpu-right{
     padding-left: 7%;
     font-weight: 100;
+    font-size: large;
     animation: 1s ease-out 0.25s 1 slideInFromRight;
 }
 .txt5570{
