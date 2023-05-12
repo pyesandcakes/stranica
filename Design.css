@@ -132,7 +132,24 @@ header {
     justify-content: center;
     margin-bottom: 5%;
 }
-
+.gpu4090_mob {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.gpu3090_mob {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.gpu3080_mob {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 .g4090 {
     -webkit-filter: drop-shadow(5px 5px 5px #3b3b3b);
     filter: drop-shadow(5px 5px 5px #3b3b3b);
@@ -303,5 +320,23 @@ html::-webkit-scrollbar {
         }
     .main_mobile{
         display: initial;
+    }
+    .gpu4090_mob{
+        display: initial;
+    }
+    .gpu3080_mob{
+        display: initial;
+    }
+    .gpu3090_mob{
+        display: initial;
+    }
+    .gpu4090{
+        display: none;
+    }
+    .gpu3090{
+        display: none;
+    }
+    .gpu3080{
+        display: none;
     }
 }
