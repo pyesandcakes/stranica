@@ -193,13 +193,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 .gf256_mob {
     display: none;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 .g256{
     animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -229,12 +229,14 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 1;
+    margin-bottom: 15%;
 }
 .sap5570_mob {
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 1;
+    margin-bottom: 10%;
 }
 .sa5570{
     animation: 1s ease-out 0s 1 slideInFromRight;

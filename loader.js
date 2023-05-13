@@ -1,12 +1,10 @@
-
-// if (!('hasCodeRunBefore' in localStorage)) {
-    var loader = document.getElementById("preloader")
+var loader = document.getElementById("preloader")
     function loaddelay() {
         loader.style.display = "none";
+        console.log("loaded")
     }
-    window.addEventListener("load", function () {
-        setTimeout(loaddelay, 3000)
-    })
-//     localStorage.setItem("hasCodeRunBefore", true);
-// }
-
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            loaddelay();
+        }, 10)
+      });

@@ -156,7 +156,7 @@ header {
     filter: drop-shadow(5px 5px 5px #3b3b3b);
     transform: rotate(0deg);
     transition: transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
-    animation: 0.5s ease-out 3s 1 slideInFromLeft;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
 
 .g4090:hover {
@@ -177,7 +177,7 @@ header {
     filter: drop-shadow(5px 5px 5px #3b3b3b);
     transform: rotate(0deg);
     transition: transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
-    animation: 0.5s ease-out 3s 1 slideInFromRight;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
 }
 
 .g3090:hover {
@@ -198,7 +198,7 @@ header {
     filter: drop-shadow(5px 5px 5px #3b3b3b);
     transform: rotate(0deg);
     transition: transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
-    animation: 0.5s ease-out 3s 1 slideInFromLeft;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
 
 .g3080:hover {
@@ -208,19 +208,19 @@ header {
 }
 
 .txt4090 {
-    animation: 0.5s ease-out 3s 1 slideInFromRight;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
 }
 .txt4090 h4{
     font-weight: 300;
 }
 .txt3090 {
-    animation: 0.5s ease-out 3s 1 slideInFromLeft;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
 .txt3090 h4{
     font-weight: 300;
 }
 .txt3080 {
-    animation: 0.5s ease-out 3s 1 slideInFromRight;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
 }
 .txt3080 h4{
     font-weight: 300;
