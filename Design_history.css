@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Bold.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Light.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Medium.woff2');
+}
 
 @keyframes slideInFromLeft {
     0% {
@@ -37,7 +51,8 @@
 }
 body {
     background-color: rgb(42, 40, 42);  
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
     color: antiquewhite;
     margin-top: 1%;
     margin-left: 0;
@@ -51,7 +66,8 @@ body {
 }
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -232,8 +248,8 @@ header {
 }
 .firstgpu{
     padding-left: 7%;
-    font-weight: 100;
-    font-size: large;
+    font-weight: bold;
+    /* font-size: large; */
     animation: 1s ease-out 0.25s 1 slideInFromLeft;
 }
 .txt256{
@@ -271,8 +287,8 @@ header {
 }
 .firstgpu-right{
     padding-left: 7%;
-    font-weight: 100;
-    font-size: large;
+    font-weight: bold;
+    /* font-size: large; */
     animation: 1s ease-out 0.25s 1 slideInFromRight;
 }
 .txt5570{

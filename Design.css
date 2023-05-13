@@ -1,5 +1,18 @@
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Bold.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Light.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Medium.woff2');
+}
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -22,7 +35,8 @@
 
 body {
     background-color: rgb(42, 40, 42);  
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
     color: antiquewhite;
     margin-top: 0;
     margin-left: 0;
@@ -37,7 +51,8 @@ body {
 }
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -409,4 +424,19 @@ html::-webkit-scrollbar {
 			0% 100%
 		);
 	}
+}
+.abt3080{
+    font-size: large;
+    line-height: 110%;
+    font-weight: light;
+}
+.abt3090{
+    font-size: large;
+    line-height: 110%;
+    font-weight: light;
+}
+.abt4090{
+    font-size: large;
+    line-height: 110%;
+    font-weight: light;
 }
