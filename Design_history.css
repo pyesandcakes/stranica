@@ -27,6 +27,14 @@
 		height: 260px;
 	}
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 body {
     background-color: rgb(42, 40, 42);  
     font-family: 'Open Sans', sans-serif;
@@ -206,6 +214,7 @@ header {
     height: 1px;
     background-color: antiquewhite;
     margin-bottom: 10%;
+    animation: 2s ease-out 0s 1 fadeIn;
 }
 .g256{
     animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -229,6 +238,7 @@ header {
 }
 .txt256{
     animation: 1s ease-out 0s 1 slideInFromRight;
+    font-size: larger;
 }
 .sap5570 {
     display: flex;
@@ -251,7 +261,7 @@ header {
     transform: rotate(0deg);
     transition: transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out, filter 0.5s ease-in-out;
     margin-right: 2%;
-    width: 600px;
+    width: 800px;
     overflow: visible;
 }
 .sa5570:hover{
@@ -267,6 +277,7 @@ header {
 }
 .txt5570{
     animation: 1s ease-out 0s 1 slideInFromLeft;
+    font-size: larger;
 }
 .left-line{
     position: absolute;
@@ -336,7 +347,12 @@ html, body {
         width: 100%;
     }
     .txt5570{
-        width: 90%;
+        width: 100%;
+        font-size: medium;
+    }
+    .txt256{
+        width: 100%;
+        font-size: medium;
     }
     .sa5570{
         width: 100%;
