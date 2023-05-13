@@ -201,7 +201,7 @@ header {
         display: initial;
     }
     .back{
-        padding-top: 90%;
+        padding-top: 60%;
         font-size: 35px;
     }
     .fali{
@@ -210,11 +210,13 @@ header {
     .content{
         display: none;
     }
-    .content_mob{
-        display: initial;
-    }
+}
+@media(min-width:1250px){
     .fali_mob{
-        display: initial;
+        display: none;
+    }
+    .content_mob{
+        display: none;
     }
 }
 .back {
@@ -271,7 +273,7 @@ header {
 
 
 .fali_mob{
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 80px;
@@ -292,7 +294,7 @@ header {
 .content_mob h1 {
 	color: #fff;
 	position: absolute;
-	transform: translate(-50%, 0%);
+	transform: translate(-50%, -50%);
 }
 
 .content_mob h1:nth-child(1) {
