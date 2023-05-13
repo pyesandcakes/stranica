@@ -200,6 +200,22 @@ header {
     .main_mobile{
         display: initial;
     }
+    .back{
+        padding-top: 90%;
+        font-size: 35px;
+    }
+    .fali{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .content_mob{
+        display: initial;
+    }
+    .fali_mob{
+        display: initial;
+    }
 }
 .back {
     font-size: 50px;
@@ -219,12 +235,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 250px;
+
+}
+
+.content h1:nth-child(1):hover {
+    -webkit-text-stroke: 0.5px rgb(0, 247, 255);
+}
+.content h1:nth-child(2):hover {
+    color: rgb(0, 247, 255);
 }
 .content {
     margin-bottom: 25%;
 	position: relative;
     margin-top: 10%;
-    font-size: 250px;
 }
 
 .content h1 {
@@ -235,14 +259,53 @@ header {
 
 .content h1:nth-child(1) {
 	color: transparent;
+    transition: -webkit-text-stroke 0.5s ease-in-out;
 	-webkit-text-stroke: 0.5px #ffffff;
 }
 
 .content h1:nth-child(2) {
 	color: #ffffff;
+    transition: color 0.5s ease-in-out;
 	animation: animate 4s ease-in-out infinite;
 }
 
+
+.fali_mob{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.content_mob h1:nth-child(1):hover {
+    -webkit-text-stroke: 0.5px rgb(0, 247, 255);
+}
+.content_mob h1:nth-child(2):hover {
+    color: rgb(0, 247, 255);
+}
+.content_mob {
+    margin-bottom: 25%;
+	position: relative;
+    margin-top: 10%;
+}
+
+.content_mob h1 {
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%, 0%);
+}
+
+.content_mob h1:nth-child(1) {
+	color: transparent;
+    transition: -webkit-text-stroke 0.5s ease-in-out;
+	-webkit-text-stroke: 0.5px #ffffff;
+}
+
+.content_mob h1:nth-child(2) {
+	color: #ffffff;
+    transition: color 0.5s ease-in-out;
+	animation: animate 4s ease-in-out infinite;
+}
 @keyframes animate {
 	0%,
 	100% {
