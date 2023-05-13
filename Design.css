@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 @keyframes slideInFromLeft {
     0% {
@@ -210,15 +210,21 @@ header {
 .txt4090 {
     animation: 0.5s ease-out 3s 1 slideInFromRight;
 }
-
+.txt4090 h4{
+    font-weight: 300;
+}
 .txt3090 {
     animation: 0.5s ease-out 3s 1 slideInFromLeft;
 }
-
+.txt3090 h4{
+    font-weight: 300;
+}
 .txt3080 {
     animation: 0.5s ease-out 3s 1 slideInFromRight;
 }
-
+.txt3080 h4{
+    font-weight: 300;
+}
 .about_mobile{
     text-decoration: none !important;
     color: antiquewhite;
@@ -366,7 +372,7 @@ html::-webkit-scrollbar {
 
 .content h2:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 2px #03a9f4;
+	-webkit-text-stroke: 0.5px #03a9f4;
 }
 
 .content h2:nth-child(2) {
