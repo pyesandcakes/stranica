@@ -271,7 +271,7 @@ header {
 
 
 .fali_mob{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     font-size: 80px;
