@@ -1,33 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Bold.woff2');
+}
 
-.cart{
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Light.woff2');
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Medium.woff2');
+}
+
+.cart {
     border-width: 3px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     border-radius: 50px;
     width: 100%;
-    height:25px;
+    height: 25px;
     background-color: black;
     padding: 4px;
-    }
-.cart_down{
+}
+
+.cart_down {
     font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
     text-decoration: none !important;
-    font-size:20px;
-    margin-left:5%;
+    font-size: 20px;
+    margin-left: 5%;
     margin-top: 16%;
     transform: translateY(-5%);
-    }
+}
+
 
 body {
-    background-color: rgb(42, 40, 42);  
-    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(42, 40, 42);
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
     color: antiquewhite;
     margin-top: 1%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 .main {
@@ -36,7 +59,8 @@ body {
 }
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -73,9 +97,11 @@ header {
     padding: 12px;
     transition: background-color 0.5s ease-in-out;
 }
+
 html::-webkit-scrollbar {
     display: none;
 }
+
 .family:hover {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -102,14 +128,17 @@ html::-webkit-scrollbar {
     height: 100px;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
-.home:hover{
+
+.home:hover {
     width: 110px;
     height: 110px;
 }
-.hm{
+
+.hm {
     margin-right: 50%;
 }
-.about_mobile{
+
+.about_mobile {
     text-decoration: none !important;
     color: antiquewhite;
     border-radius: 50px;
@@ -118,7 +147,7 @@ html::-webkit-scrollbar {
     transition: background-color 0.5s ease-in-out;
 }
 
-.family_mobile{
+.family_mobile {
     text-decoration: none !important;
     color: antiquewhite;
     border-radius: 50px;
@@ -127,7 +156,7 @@ html::-webkit-scrollbar {
     transition: background-color 0.5s ease-in-out;
 }
 
-.sources_mobile{
+.sources_mobile {
     text-decoration: none !important;
     color: antiquewhite;
     border-radius: 50px;
@@ -140,59 +169,74 @@ html::-webkit-scrollbar {
     background-color: rgb(255, 255, 255);
     color: black;
 }
+
 .family_mobile:hover {
     background-color: rgb(255, 255, 255);
     color: black;
 }
+
 .sources_mobile:hover {
     background-color: rgb(255, 255, 255);
     color: black;
 }
-.main_mobile{
+
+.main_mobile {
     display: none;
 }
+
 .hm_mob_pic {
-    display:none;
+    display: none;
     width: 100px;
     height: 100px;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
-.hm_mob_pic:hover{
+
+.hm_mob_pic:hover {
     width: 110px;
     height: 110px;
 }
-.hm_mob{
+
+.hm_mob {
     margin-right: 50%;
     cursor: pointer;
-    display:none;
+    display: none;
 }
-@media (max-width:1250px){
-    .about{
+
+@media (max-width:1250px) {
+    .about {
         display: none;
     }
-    .family{
+
+    .family {
         display: none;
     }
-    .sources{
+
+    .sources {
         display: none;
     }
-    .home{
-        display:none;
-        }
-    .hm{
-        display:none;
-        }
-    .hm_mob{
-        display:initial;
-        }
-    .hm_mob_pic{
-        display:initial;
-        }
-    .main_mobile{
+
+    .home {
+        display: none;
+    }
+
+    .hm {
+        display: none;
+    }
+
+    .hm_mob {
         display: initial;
     }
-    .cart{
-        height:12px;
-        border-radius:3px;
+
+    .hm_mob_pic {
+        display: initial;
+    }
+
+    .main_mobile {
+        display: initial;
+    }
+
+    .cart {
+        height: 12px;
+        border-radius: 3px;
     }
 }

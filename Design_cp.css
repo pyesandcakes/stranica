@@ -1,24 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Bold.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Light.woff2');
+}
+@font-face {
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
+    src: url('https://infstranica.b-cdn.net/SFProDisplay-Medium.woff2');
+}
 body {
     background-color: rgb(42, 40, 42);  
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
     color: antiquewhite;
     margin-top: 1%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
-
+html::-webkit-scrollbar {
+    display: none;
+}
 .main {
     margin-left: 5%;
     margin-right: 5%;
 }
-html::-webkit-scrollbar {
-    display: none;
-}
+
 header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -185,4 +200,76 @@ header {
     .main_mobile{
         display: initial;
     }
+}
+.back {
+    font-size: 50px;
+    font-family: 'SF-Pro-Display';
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    align-items: center;
+    text-decoration: underline;
+    transition: color 0.5s ease-in-out;
+}
+.back:hover {
+    color: rgb(0, 247, 255);
+}
+.fali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    margin-bottom: 25%;
+	position: relative;
+    margin-top: 10%;
+    font-size: 250px;
+}
+
+.content h1 {
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%, -70%);
+}
+
+.content h1:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 0.5px #ffffff;
+}
+
+.content h1:nth-child(2) {
+	color: #ffffff;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
 }
