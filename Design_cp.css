@@ -220,6 +220,8 @@ header {
     }
 }
 .back {
+    position: relative;
+
     font-size: 50px;
     font-family: 'SF-Pro-Display';
     font-weight: light;
