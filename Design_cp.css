@@ -243,9 +243,6 @@ header {
 
 }
 
-.content h1:nth-child(1):hover {
-    -webkit-text-stroke: 0.5px rgb(0, 247, 255);
-}
 .content h1:nth-child(2):hover {
     color: rgb(0, 247, 255);
 }
@@ -264,7 +261,7 @@ header {
 .content h1:nth-child(1) {
 	color: transparent;
     transition: -webkit-text-stroke 0.5s ease-in-out;
-	-webkit-text-stroke: 0.5px #ffffff;
+	-webkit-text-stroke: 0.5px rgb(0, 247, 255);
 }
 
 .content h1:nth-child(2) {
@@ -302,7 +299,7 @@ header {
 .content_mob h1:nth-child(1) {
 	color: transparent;
     transition: -webkit-text-stroke 0.5s ease-in-out;
-	-webkit-text-stroke: 0.5px #ffffff;
+	-webkit-text-stroke: 0.5px rgb(0, 247, 255);
 }
 
 .content_mob h1:nth-child(2) {

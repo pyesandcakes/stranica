@@ -375,7 +375,8 @@ html::-webkit-scrollbar {
 .content {
     margin-bottom: 10%;
 	position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SF-Pro-Display';
+    font-weight: medium;
 }
 
 .content h2 {
