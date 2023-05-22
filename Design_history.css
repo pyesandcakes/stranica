@@ -251,10 +251,10 @@ header {
     padding-left: 7%;
     font-weight: bold;
     /* font-size: large; */
-    animation: 1s ease-out 0.25s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 .txt256{
-    animation: 1s ease-out 0s 1 slideInFromRight;
+    animation: 1.5s ease-out 0s 1 slideInFromRight;
     font-size: larger;
 }
 .sap5570 {
@@ -293,7 +293,7 @@ header {
     animation: 1s ease-out 0.25s 1 slideInFromRight;
 }
 .txt5570{
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
     font-size: larger;
 }
 .left-line{
